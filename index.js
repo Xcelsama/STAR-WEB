@@ -143,7 +143,7 @@ async function startnigg(phone) {
             1,
             'N'
           )
-          const sessi = 'GuruBot~' + output.split('https://pastebin.com/')[1]
+          const sessi = 'Starbot~' + output.split('https://pastebin.com/')[1]
           console.log(sessi)
           await delay(2000)
           let guru = await negga.sendMessage(negga.user.id, { text: sessi })
@@ -151,9 +151,9 @@ async function startnigg(phone) {
           await negga.sendMessage(
             negga.user.id,
             {
-              text: 'Hello there! 👋 \n\nDo not share your session id with anyone.\n\nPut the above in SESSION_ID var\n\nThanks for using GURU-BOT\n\n join support group:- https://chat.whatsapp.com/JY4R2D22pbLIKBMQWyBaLg \n',
+              text: 'Hello there! 👋 \n\nDo not share your session id with anyone.\n\nPut the above in SESSION_ID var\n\nThanks for using STAR-BOT\n\n join support channel:- https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X  \n',
             },
-            { quoted: guru }
+            { quoted:guru }
           )
 
           console.log('Connected to WhatsApp Servers')
